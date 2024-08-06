@@ -1,15 +1,14 @@
 plugins {
     alias(libs.plugins.androidApplication)
-    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.ad2splashscreen"
+    namespace = "com.example.chattodo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ad2splashscreen"
-        minSdk = 24
+        applicationId = "com.example.chattodo"
+        minSdk = 18
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -38,9 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
 }

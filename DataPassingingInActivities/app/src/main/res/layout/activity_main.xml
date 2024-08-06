@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    >
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameET"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:hint="Name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        /> <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberET"
+        android:inputType="number"
+        android:hint="Number"
+        android:layout_below="@+id/nameET"
+        android:paddingTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fact"
+        android:layout_centerInParent="true"
+        android:text="First Activity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Second Activity"
+        android:layout_below="@+id/fact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>
+
+

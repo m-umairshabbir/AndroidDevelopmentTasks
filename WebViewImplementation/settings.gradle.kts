@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ad2SplashScreen"
+rootProject.name = "ChatTodo"
 include(":app")

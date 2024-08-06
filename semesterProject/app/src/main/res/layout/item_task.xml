@@ -1,0 +1,35 @@
+<!-- item_task.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/taskCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/chat_background"
+        android:checked="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/taskNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/black"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:drawableRight="@android:drawable/ic_delete"
+        android:paddingEnd="25dp"
+        android:backgroundTint="#C1B8B8"
+        android:contentDescription="@string/delete_task"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Other style definitions -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionMenuTextColor">@color/menuTextColor</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextAppearance</item>
+    </style>
+
+    <style name="MenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/menuTextColor</item>
+    </style>
+</resources>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnContainer"
+        android:background="@color/grayBackground"
+        android:elevation="14dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <Button
+            android:id="@+id/taskTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:text="@string/frag1"
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/baseline_add_task_24"
+            android:backgroundTint="@color/lightGrey"
+             />
+        <Button
+            android:id="@+id/reachus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/frag2"
+            android:backgroundTint="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        />
+
+
+
+</LinearLayout>
